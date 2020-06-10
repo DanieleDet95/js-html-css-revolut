@@ -1,0 +1,67 @@
+/* Reset generale */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Link */
+a{
+  color: #b0b5ba;
+  text-decoration: none;
+  font-size: 13px;
+}
+/* Bottone */
+button{
+  width: 100px;
+  padding: 7px;
+  border-radius: 25px;
+  background: #eb008d;
+  border: none;
+}
+button a{
+  color: white;
+}
+/* Fine reset generale */
+
+/* HEADER */
+header{
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  padding-top: 20px;
+}
+.left li,
+.right li{
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+}
+.color-black{
+  color: black;
+}
+.background-gray{
+  background: gray;
+}
+
+.left img{
+  height: 25px;
+}
+/* Dropdown */
+.dropdown{
+  display: none;
+  position: absolute;
+  top: 35px;
+  right: -30px;
+  left: -30px;
+  width: 125px;
+  padding: 0px 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+}
+.menu-dropdown li{
+  margin: 0px;
+  display: block;
+}
+.dropdown.active{
+  display: block;
+}
+/* FINE HEADER */
