@@ -23,6 +23,18 @@ $(document).ready(
       }
     );
 
+    $('.item').mouseover(
+      function(){
+        $(this).children('a').addClass('background-gray');
+      }
+    );
+
+    $('.item').mouseout(
+      function(){
+        $(this).children('a').removeClass('background-gray');
+      }
+    );
+
 
 
 
