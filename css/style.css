@@ -45,6 +45,9 @@ header{
 
 .left img{
   height: 25px;
+  vertical-align: middle;
+  position: relative;
+  bottom: 5px;
 }
 /* Dropdown */
 .dropdown{
@@ -54,16 +57,22 @@ header{
   right: -25px;
   left: -25px;
   width: 113px;
-  /*! padding: 0px 10px; */
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
 }
-.dropdown li{
+.item{
   margin: 0px;
 }
-.dropdown li a{
+.item a{
   padding: 10px;
   display: inline-block;
   width: 113px;
+}
+.item span{
+  color: red;
+  position: absolute;
+  top: 0px;
+  right: 40px;
+  font-size: 11px;
 }
 .dropdown.active{
   display: block;
